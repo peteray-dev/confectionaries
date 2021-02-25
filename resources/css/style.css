@@ -1,0 +1,284 @@
+/* color #ff7f50 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.418);
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+/* ----------------------------- */
+/* ----Header */
+/* ----------------------------- */
+.logo{
+    width: 70px;
+    height: 50px;
+}
+.nav-bar{
+    background-color: #b63100;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.head{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../vendor/images/oven.jpg);
+    width: 100%;
+    height: auto;
+}
+
+.image_pic{
+    /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
+    width: 300px;
+     margin:100px 100px;
+    border: 10px solid white;
+    outline-color: white;
+}
+.motto{
+        margin: auto 0px ;
+        color: white ;  
+}
+
+/* ----------------------------- */
+/* ----Reusable component */
+/* ----------------------------- */
+
+h1{
+    letter-spacing: 2px;
+    word-spacing: 4px;
+
+}
+h2{
+    text-decoration: underline;
+    text-align: center;
+    color: #501600;
+}
+h3{
+    color: #fffbfa;
+    font-weight:600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 30px 0px 10px 0px;
+    font-size: 140%;
+}
+
+h4{
+    color: white;
+    font-weight:600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 30px 0px 10px 0px;
+    text-align: left;
+    color: black;
+}
+i{
+    margin-right: 10px;
+    color:#ff7f50;
+    font-size: 120%;
+}
+p{
+    color: white;
+}
+span{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.dropdown-menu{
+    background-color: #b63100;
+}
+.dropdown-menu li a:active,
+.dropdown-menu li a:visited,
+.dropdown-menu li a:focus{
+    background-color:#ff7f50;
+
+}
+.dropdown-menu li a{
+    color: white;
+}
+/* ----------------------------- */
+/* ----buttons*/
+/* ----------------------------- */
+
+
+.btn-order{
+    background-color: #b63100;
+    color: white; /*ff5a1d*/
+    outline: none;
+    border: none;
+    font-size: 120%;
+    width: 40%;
+    border-radius: 10px;
+    
+}
+.btn-order:active,
+.btn-order:focus,
+.btn-order:visited{
+    background-color: #b63100;
+    text-decoration: none;
+
+}
+.btn-order:hover{
+    background-color: #ff5a1d;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+}
+.btn-speak{
+    background-color: none;
+    color: #ffefe9;
+    outline: none;
+    border: none;
+    font-size: 120%;
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+.btn-speak:active,
+.btn-speak:focus,
+.btn-speak:visited{
+    background-color: #b63100;
+    text-decoration: none;
+
+}
+.btn-speak:hover{
+    background-color: #ff5a1d;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+}
+
+/* ----------------------------- */
+/* ----Bread-types */
+/* ----------------------------- */
+.bread-type{
+    background-color: #fffbfa;
+}
+.bread-con{
+    background-color: white;
+    margin-top: 20px ;
+    border: 1px solid #3f1100 ;
+    
+}
+.bread-con:hover{
+    background-color: #3f1100;
+    color: white;
+    box-shadow: 2px 2px 5px #ff5a1d;
+}
+.values ul{
+    list-style: none;
+}
+.bread_col{
+    padding: 10px;
+}
+.chinese{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../../vendor/images/coconut-bread.jpg);
+}
+.bague{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../vendor/images/bague.jpg);
+}
+.coco{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../vendor/images/sardine-bread.jpg);
+}
+
+/* ----------------------------- */
+/* ----Gallery--------- */
+.section-bread{
+    padding: 0;
+    /* margin-bottom: 30px; */
+    width: 10   0%;
+    margin: 0px auto 30px;
+
+}
+
+.bread-showcase{
+    width: 100%;
+    list-style: none;
+    
+}
+.bread-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+
+    
+}
+.bread-photo{
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+
+}
+.bread-photo img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.5);
+    transition: transform 0.5s opacity 0.5s;
+}
+.bread-photo img:hover{
+    transform: scale(1.02);
+    opacity: 1;
+}
+
+
+
+/* ----------------------------- */
+/* ----footer-------- */
+
+.footer-bread{
+    background-color: #ff7f50;
+    margin-top: 40%;
+}
+.address h3{
+    padding: 30px 0px 10px 0px;
+    text-align: center;
+    color: black;
+}
+.link{
+    list-style: none;
+    text-align: left;
+}
+.link li{
+    padding-bottom: 30px;
+}
+.link li a:active,
+.link li a:visited{
+    color: white;
+    transition: margin-right 5s;
+}
+
+.link li a:hover{
+    color:#1d0800;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.fix{
+    background-color: #ffe2d8;
+    color: black; 
+    outline: none;
+    border: none;
+    font-size: 100%;
+    float: right;
+    border-radius: 10px;
+    margin-left: 10px;
+    
+}
+.fix:focus,
+.fix:active,
+.fix:visited{
+    text-decoration: none;
+}
+.fix:hover{
+    text-decoration: none;
+    color: #3f1100;
+}
